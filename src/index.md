@@ -1,17 +1,26 @@
 ---
+title: Het MKI Expertisecentrum
 layout: layout.njk
-title: Welkom bij het MKI Expertisecentrum
 ---
 
-# Welkom bij het MKI Expertisecentrum
+<section class="text-center mb-12">
+  <h1 class="text-4xl font-bold text-blue-800 mb-4">Het MKI Expertisecentrum</h1>
+  <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+    Een platform voor alles rondom MKI – van beleid tot praktijk.
+  </p>
+</section>
 
-Een platform voor alles rondom MKI – van beleid tot praktijk.
-
-<div class="grid">
-  <a class="tile" href="/opdrachtgevers/">Voor Opdrachtgevers</a>
-  <a class="tile" href="/opdrachtnemers/">Voor Opdrachtnemers</a>
-  <a class="tile" href="/leveranciers/">Voor Leveranciers</a>
-</div>
+<section class="flex flex-col md:flex-row justify-center gap-6">
+  <a href="/opdrachtgevers/" class="bg-blue-600 hover:bg-blue-700 text-white text-center rounded-xl px-6 py-4 font-semibold text-lg transition">
+    Voor opdrachtgevers
+  </a>
+  <a href="/opdrachtnemers/" class="bg-blue-600 hover:bg-blue-700 text-white text-center rounded-xl px-6 py-4 font-semibold text-lg transition">
+    Voor opdrachtnemers
+  </a>
+  <a href="/leveranciers/" class="bg-blue-600 hover:bg-blue-700 text-white text-center rounded-xl px-6 py-4 font-semibold text-lg transition">
+    Voor leveranciers
+  </a>
+</section>
 
 <section>
 <h1>Schrijf je in voor de nieuwsbrief</h1>
