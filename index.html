@@ -1,51 +1,42 @@
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Welkom bij het MKI Expertisecentrum</title>
-  <link href="/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
-<body class="font-sans text-gray-800">
-  
-<nav class="bg-white border-b p-4 shadow">
-  <ul class="flex space-x-4">
-    <li class="relative group">
-      <a href="/opdrachtgevers/" class="font-semibold hover:text-blue-600">Opdrachtgevers</a>
-      <ul class="absolute left-0 hidden group-hover:block bg-white border mt-1 shadow-md">
-        <li><a href="/opdrachtgevers/handleiding/" class="block px-4 py-2 hover:bg-gray-100">Handleidingen</a></li>
-        <li><a href="/opdrachtgevers/templates/" class="block px-4 py-2 hover:bg-gray-100">Templates</a></li>
+<body>
+  <header>
+    <nav>
+      <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/opdrachtgevers/">Opdrachtgevers</a></li>
+        <li><a href="/opdrachtnemers/">Opdrachtnemers</a></li>
+        <li><a href="/leveranciers/">Leveranciers</a></li>
+        <li><a href="/downloads/">Downloads</a></li>
+        <li><a href="/discussie/">Discussie</a></li>
       </ul>
-    </li>
-    <li class="relative group">
-      <a href="/opdrachtnemers/" class="font-semibold hover:text-blue-600">Opdrachtnemers</a>
-      <ul class="absolute left-0 hidden group-hover:block bg-white border mt-1 shadow-md">
-        <li><a href="/opdrachtnemers/tools/" class="block px-4 py-2 hover:bg-gray-100">Tools</a></li>
-        <li><a href="/opdrachtnemers/support/" class="block px-4 py-2 hover:bg-gray-100">Ondersteuning</a></li>
-      </ul>
-    </li>
-    <li><a href="/downloads/" class="font-semibold hover:text-blue-600">Downloads</a></li>
-    <li><a href="/over/" class="font-semibold hover:text-blue-600">Over</a></li>
-  </ul>
-</nav>
-
-  <main class="p-6 max-w-4xl mx-auto">
+    </nav>
+  </header>
+  <main>
     <h1>Welkom bij het MKI Expertisecentrum</h1>
-<p>Ben jij opdrachtgever of opdrachtnemer in de bouwsector en wil je aan de slag met MKI?<br>
-Deze site biedt toegankelijke en praktische ondersteuning.</p>
-<ul>
-<li>✅ Begrijp wat MKI is en hoe het werkt</li>
-<li>✅ Vind hulpmiddelen, templates en uitleg per doelgroep</li>
-<li>✅ Schrijf je in voor de nieuwsbrief</li>
-<li>✅ Lees de nieuwste inzichten en trends</li>
-<li>✅ Neem deel aan discussies onder artikelen of in het forum</li>
-</ul>
-<form name="newsletter" method="POST" data-netlify="true" class="mt-6">
-  <label for="email" class="block font-semibold">Schrijf je in voor de nieuwsbrief:</label>
-  <input type="email" name="email" id="email" class="border p-2 mt-2 w-full max-w-sm" required>
-  <button type="submit" class="bg-blue-600 text-white px-4 py-2 mt-2 rounded">Inschrijven</button>
-</form>
+<p>Een platform voor alles rondom MKI – van beleid tot praktijk.</p>
+<div class="grid">
+  <a class="tile" href="/opdrachtgevers/">Voor Opdrachtgevers</a>
+  <a class="tile" href="/opdrachtnemers/">Voor Opdrachtnemers</a>
+  <a class="tile" href="/leveranciers/">Voor Leveranciers</a>
+</div>
+<section>
+  <h2>Nieuwsbrief</h2>
+  <form action="https://example.us1.list-manage.com/subscribe/post" method="POST">
+    <input type="email" name="EMAIL" placeholder="Je e-mailadres">
+    <button type="submit">Inschrijven</button>
+  </form>
+</section>
 
   </main>
+  <footer>
+    <p>&copy; 2025 MKI Expertisecentrum</p>
+  </footer>
 </body>
 </html>
