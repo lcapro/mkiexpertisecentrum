@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ title }}</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/opdrachtgevers/">Opdrachtgevers</a></li>
-        <li><a href="/opdrachtnemers/">Opdrachtnemers</a></li>
-        <li><a href="/leveranciers/">Leveranciers</a></li>
-        <li><a href="/downloads/">Downloads</a></li>
-        <li><a href="/discussie/">Discussie</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    {{ content | safe }}
-  </main>
-  <footer>
-    <p>&copy; 2025 MKI Expertisecentrum</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{ title or "MKI Expertisecentrum" }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    {% include "header.njk" %}
+    <main class="max-w-4xl mx-auto px-4 py-10">
+      {{ content | safe }}
+    </main>
+    <footer class="text-center py-6 text-sm text-gray-500 border-t">
+      © 2025 MKI Expertisecentrum
+    </footer>
+  </body>
 </html>
