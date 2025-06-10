@@ -1,3 +1,3 @@
-# Voor Leveranciers & Producenten
+# Voor Leveranciers
 
-Steeds meer leveranciers krijgen te maken met MKI-data-aanlevering. Hier vind je uitleg en richtlijnen.
+Productdata en MKI-eisen vanuit de keten.

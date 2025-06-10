@@ -5,17 +5,18 @@ title: Welkom bij het MKI Expertisecentrum
 
 # Welkom bij het MKI Expertisecentrum
 
-Ben jij opdrachtgever of opdrachtnemer in de bouwsector en wil je aan de slag met MKI?  
-Deze site biedt toegankelijke en praktische ondersteuning.
+Een platform voor alles rondom MKI – van beleid tot praktijk.
 
-- ✅ Begrijp wat MKI is en hoe het werkt
-- ✅ Vind hulpmiddelen, templates en uitleg per doelgroep
-- ✅ Schrijf je in voor de nieuwsbrief
-- ✅ Lees de nieuwste inzichten en trends
-- ✅ Neem deel aan discussies onder artikelen of in het forum
+<div class="grid">
+  <a class="tile" href="/opdrachtgevers/">Voor Opdrachtgevers</a>
+  <a class="tile" href="/opdrachtnemers/">Voor Opdrachtnemers</a>
+  <a class="tile" href="/leveranciers/">Voor Leveranciers</a>
+</div>
 
-<form name="newsletter" method="POST" data-netlify="true" class="mt-6">
-  <label for="email" class="block font-semibold">Schrijf je in voor de nieuwsbrief:</label>
-  <input type="email" name="email" id="email" class="border p-2 mt-2 w-full max-w-sm" required>
-  <button type="submit" class="bg-blue-600 text-white px-4 py-2 mt-2 rounded">Inschrijven</button>
-</form>
+<section>
+  <h2>Nieuwsbrief</h2>
+  <form action="https://example.us1.list-manage.com/subscribe/post" method="POST">
+    <input type="email" name="EMAIL" placeholder="Je e-mailadres">
+    <button type="submit">Inschrijven</button>
+  </form>
+</section>

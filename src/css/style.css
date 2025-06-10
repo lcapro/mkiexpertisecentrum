@@ -1,6 +1,8 @@
 
-body { font-family: sans-serif; }
-nav ul { list-style: none; padding: 0; margin: 0; }
-nav li { position: relative; }
-nav li ul { display: none; position: absolute; }
-nav li:hover ul { display: block; }
+body { font-family: sans-serif; margin: 0; padding: 0; }
+header, footer { background: #333; color: white; padding: 1em; text-align: center; }
+nav ul.nav { display: flex; list-style: none; justify-content: center; padding: 0; }
+nav ul.nav li { margin: 0 1em; }
+nav ul.nav li a { color: white; text-decoration: none; }
+.grid { display: flex; gap: 1em; justify-content: center; margin: 2em 0; }
+.tile { padding: 2em; background: #f0f0f0; border-radius: 8px; text-align: center; text-decoration: none; color: #333; }

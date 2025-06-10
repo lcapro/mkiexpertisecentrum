@@ -1,3 +1,3 @@
 # Downloads
 
-Hier vind je sjablonen, handleidingen en tools voor het toepassen van MKI.
+Hier vind je templates, handleidingen en tools.
