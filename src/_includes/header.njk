@@ -1,1 +1,21 @@
-<nav><!-- nav met dropdowns --></nav>
+
+<nav class="bg-white border-b p-4 shadow">
+  <ul class="flex space-x-4">
+    <li class="relative group">
+      <a href="/opdrachtgevers/" class="font-semibold hover:text-blue-600">Opdrachtgevers</a>
+      <ul class="absolute left-0 hidden group-hover:block bg-white border mt-1 shadow-md">
+        <li><a href="/opdrachtgevers/handleiding/" class="block px-4 py-2 hover:bg-gray-100">Handleidingen</a></li>
+        <li><a href="/opdrachtgevers/templates/" class="block px-4 py-2 hover:bg-gray-100">Templates</a></li>
+      </ul>
+    </li>
+    <li class="relative group">
+      <a href="/opdrachtnemers/" class="font-semibold hover:text-blue-600">Opdrachtnemers</a>
+      <ul class="absolute left-0 hidden group-hover:block bg-white border mt-1 shadow-md">
+        <li><a href="/opdrachtnemers/tools/" class="block px-4 py-2 hover:bg-gray-100">Tools</a></li>
+        <li><a href="/opdrachtnemers/support/" class="block px-4 py-2 hover:bg-gray-100">Ondersteuning</a></li>
+      </ul>
+    </li>
+    <li><a href="/downloads/" class="font-semibold hover:text-blue-600">Downloads</a></li>
+    <li><a href="/over/" class="font-semibold hover:text-blue-600">Over</a></li>
+  </ul>
+</nav>

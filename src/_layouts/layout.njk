@@ -1,2 +1,15 @@
-{% include 'header.njk' %}
-<main>{{ content | safe }}</main>
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title or "MKI Expertisecentrum" }}</title>
+  <link href="/css/style.css" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800">
+  {% include "header.njk" %}
+  <main class="p-6 max-w-4xl mx-auto">
+    {{ content | safe }}
+  </main>
+</body>
+</html>
