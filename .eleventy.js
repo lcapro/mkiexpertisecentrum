@@ -1,9 +1,11 @@
 module.exports = function(eleventyConfig) {
-  // Ensure the global stylesheet is available in the generated site
-  // by copying it from the source folder to the output root.
+  // Voeg deze regel toe om afbeeldingen mee te nemen naar _site
+  eleventyConfig.addPassthroughCopy("src/img");
+
   eleventyConfig.addPassthroughCopy({
     'src/css/style.css': 'style.css'
   });
+
   return {
     dir: {
       input: "src",
