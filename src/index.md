@@ -15,7 +15,8 @@ Een platform voor alles rondom MKI – van beleid tot praktijk.
 
 <section>
   <h2>Nieuwsbrief</h2>
-  <form action="https://example.us1.list-manage.com/subscribe/post" method="POST">
+    <!-- Pas deze URL en die in src/nieuwsbrief.md aan als de Mailchimp-link verandert -->
+  <form action="https://mkiexpertisecentrum.us3.list-manage.com/subscribe/post?u=19f86c8a84f3def242207639f&amp;id=eee481ddea&amp;f_id=00dc7fe2f0" method="POST">
     <input type="email" name="EMAIL" placeholder="Je e-mailadres">
     <button type="submit">Inschrijven</button>
   </form>
