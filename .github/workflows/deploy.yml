@@ -21,7 +21,7 @@ jobs:
       run: npm install
 
     - name: Build site with Eleventy
-      run: npx eleventy
+      run: npx @11ty/eleventy
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
