@@ -20,8 +20,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Build site with Eleventy
-      run: npx @11ty/eleventy
+    - name: Build site with Tailwind and Eleventy
+      run: npm run build
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
