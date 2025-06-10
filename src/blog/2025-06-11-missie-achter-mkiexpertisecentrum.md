@@ -9,6 +9,7 @@ tags:
   - MKI
 summary: "Waarom dit platform bestaat: over de noodzaak van inzicht, eenvoud en eerlijkheid in duurzaam aanbesteden en bouwen."
 layout: layout.njk
+permalink: "/blog/missie-achter-het-mki-expertisecentrum/"
 ---
 
 Duurzaamheid begint bij inzicht. Zonder te meten, weten we niet wat duurzaam is. Dat klinkt logisch, maar in de praktijk is dit nog allesbehalve vanzelfsprekend. 
