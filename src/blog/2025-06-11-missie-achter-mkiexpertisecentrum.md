@@ -3,6 +3,7 @@ title: "De missie achter het MKI Expertisecentrum"
 date: 2025-06-10
 author: Jim van der Kooij
 tags:
+  - blog
   - missie
   - duurzaamheid
   - MKI
