@@ -2,9 +2,10 @@
   "name": "mkiexpertisecentrum",
   "version": "1.0.0",
   "scripts": {
-  "build": "npx @11ty/eleventy",
-  "start": "npx @11ty/eleventy --serve",
-  "css": "postcss src/css/style.css -o dist/style.css --watch"
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve",
+    "css": "postcss src/css/style.css -o dist/style.css --watch",
+    "test": "node tests/build.test.js"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.0",
