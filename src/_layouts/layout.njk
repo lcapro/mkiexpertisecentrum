@@ -1,21 +1,2 @@
-
-<!DOCTYPE html>
-<html lang="nl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ title or "MKI Expertisecentrum" }}</title>
-    <link rel="stylesheet" href="/dist/style.css" />
-  </head>
-  <body class="font-sans bg-white text-gray-800">
-    <header class="p-4 shadow bg-gray-100">
-      <h1 class="text-xl font-bold"><a href="/">MKI Expertisecentrum</a></h1>
-    </header>
-    <main class="p-6 prose max-w-3xl mx-auto">
-      {{ content | safe }}
-    </main>
-    <footer class="p-4 text-sm text-center text-gray-500">
-      &copy; MKI Expertisecentrum
-    </footer>
-  </body>
-</html>
+{% include 'header.njk' %}
+<main>{{ content | safe }}</main>
