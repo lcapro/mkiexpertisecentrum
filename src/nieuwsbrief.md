@@ -25,7 +25,7 @@ permalink: "nieuwsbrief/index.html"
         <h2>Abonneer op onze nieuwsbrief</h2>
         <div class="indicates-required"><span class="asterisk">*</span> verplicht veld</div>
         <div class="mc-field-group">
-          <label for="mce-EMAIL">Emailadres <span class="asterisk">*</span></label>
+          <label for="mce-EMAIL">E-mailadres <span class="asterisk">*</span></label>
           <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required>
         </div>
         <div id="mce-responses" class="clear foot">
