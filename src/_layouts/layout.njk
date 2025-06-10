@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/style.css" rel="stylesheet" />
   </head>
-  <body class="bg-gray-50 text-gray-900">
+  <body>
     {% include "header.njk" %}
-    <main class="max-w-4xl mx-auto px-4 py-10">
+    <main class="container">
       {{ content | safe }}
     </main>
-    <footer class="text-center py-6 text-sm text-gray-500 border-t">
+    <footer>
       © 2025 MKI Expertisecentrum
     </footer>
   </body>
